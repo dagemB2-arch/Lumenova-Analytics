@@ -21,9 +21,12 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Optimus - Platform to Create',
-  description: 'The creative platform for teams who ship. Build, deploy, and scale with unprecedented velocity.',
-  generator: 'v0.app',
+  title: 'Lumenova Analytics',
+  description: 'Boutique intelligence for CEOs, manufacturers, and SMEs across the Horn of Africa.',
+  icons: {
+    icon: '/icon.svg',
+    apple: '/apple-icon.png',
+  },
 }
 
 export default function RootLayout({
